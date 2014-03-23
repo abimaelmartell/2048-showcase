@@ -5,13 +5,13 @@ window.App = window.App || {};
 
         var _this = this;
 
-        this.template = _.template($('#element-template').html());
+        this.template = _.template($('#game-template').html());
 
-        this.$el = $("#list");
+        this.$el = $("#games-list");
 
         this.render = function() {
-            _.each(App.Data, function(el) {
-                _this.$el.append(_this.template(el));
+            _.each(App.Data, function(game) {
+                _this.$el.append(_this.template({ "game": game }));
             });
         }
 
