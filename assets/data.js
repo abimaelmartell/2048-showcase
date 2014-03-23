@@ -72,8 +72,64 @@ window.App = window.App || {};
             "description": "In this case, you control where the numbers appear, try to make the player lose.",
             "url": "https://sphere.chronosempire.org.uk/~HEx/8402/",
             "screenshot": "8402.png"
+        },
+
+        {
+            "title": "2048 - Hard",
+            "tags": ["original", "numbers", "hard"],
+            "description": "Same as the original, but the 2s and 4s appear in the worst place possible.",
+            "url": "https://sztupy.github.io/2048-Hard/",
+            "screenshot": "hard.png"
+        },
+
+        {
+            "title": "2048 4D",
+            "tags": ["original", "numbers"],
+            "description": "Original game splited into 4x4's",
+            "url": "http://huonw.github.io/2048-4D/",
+            "screenshot": "4d.png"
+        },
+
+        {
+            "title": "2048 AI",
+            "tags": ["original", "numbers"],
+            "description": "Original game with some additional help.",
+            "url": "http://ov3y.github.io/2048-AI/",
+            "screenshot": "ai.png"
+        },
+
+        {
+            "title": "Flappy 2048",
+            "tags": ["flappy", "numbers"],
+            "description": "Try to avoid touching the walls by flying",
+            "url": "http://hczhcz.github.io/Flappy-2048/",
+            "screenshot": "flappy.png"
+        },
+
+        {
+            "title": "2048 - Multiplayer",
+            "tags": ["multiplayer", "original", "numbers"],
+            "description": "Play againts another random player.",
+            "url": "http://emils.github.io/2048-multiplayer/",
+            "screenshot": "multiplayer.png"
+        },
+
+        {
+            "title": "2048 - 3D",
+            "tags": ["original", "numbers"],
+            "description": "3 3x3 tables",
+            "url": "http://joppi.github.io/2048-3D/",
+            "screenshot": "3d.png"
+        },
+
+        {
+            "title": "LHC",
+            "tags": ["words"],
+            "description": "Collide these elementary particles and generate the Higgs Boson!",
+            "url": "http://milrivel.github.io/LHC/",
+            "screenshot": "lhc.png"
         }
-    
+
     ];
 
 })();
