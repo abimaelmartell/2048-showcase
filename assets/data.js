@@ -1,7 +1,9 @@
 window.App = window.App || {};
 (function() {
-    
-    App.Data = [
+
+    App.Data = {};
+
+    App.Data.Games = [
         {
             "title": "2048",
             "tags": ["numbers", "awesome"],

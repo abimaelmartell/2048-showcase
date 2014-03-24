@@ -43,6 +43,8 @@ header{
 #games-list li {
     list-style: none;
     margin-bottom: 10px;
+    opacity: 0;
+    display: none;
 }
     #games-list li article {
         background: #FFF;

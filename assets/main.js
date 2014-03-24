@@ -10,9 +10,11 @@ window.App = window.App || {};
         this.$el = $("#games-list");
 
         this.render = function() {
-            _.each(App.Data, function(game) {
+            _.each(App.Data.Games, function(game) {
                 _this.$el.append(_this.template({ "game": game }));
             });
+
+            this.$el.mixitup();
         }
 
 
