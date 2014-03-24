@@ -130,6 +130,22 @@ window.App = window.App || {};
             "description": "Collide these elementary particles and generate the Higgs Boson!",
             "url": "http://milrivel.github.io/LHC/",
             "screenshot": "lhc.png"
+        },
+
+        {
+            "title": "HN plays 2048",
+            "tags": ["original", "multiplayer"],
+            "description": "Anybody can move the tiles!",
+            "url": "https://hnplays2048.herokuapp.com/",
+            "screenshot": "hnplays.png"
+        },
+
+        {
+            "title": "Prism",
+            "tags": ["colors"],
+            "description": "2048 without numbers",
+            "url": "http://prism.clay.io/",
+            "screenshot": "prism.png"
         }
 
     ];
