@@ -14,6 +14,7 @@ window.App = window.App || {};
                 _this.$el.append(_this.template({ "game": game }));
             });
 
+            // grid filtering
             this.$el.mixitup();
         }
 
